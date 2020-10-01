@@ -8,12 +8,13 @@
     "telephone": "+8801789243439",
     "website": "https://saabbir.com",
     "skills": [
+        "Photoshop",
         "HTML",
         "CSS",
         "Sass",
+        "JavaScript",
         "Bootstrap",
-        "Javascript / ES6",
-        "React",
+        "Vue.js",
         "Git"
     ],
     "languages": [

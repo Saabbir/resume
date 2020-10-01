@@ -7,4 +7,4 @@ start: 2017-03-18
 end: 2017-08-10
 ---
 
-Redesigned whole pragmaticworks.com website using HTML, CSS, JavaScript, and Bootstrap. Also, developed various code snippets and templates for their Dot Net Nuke website.
+Redesigned whole pragmaticworks.com website using HTML, CSS, JavaScript, and Bootstrap. Also, developed various code snippets and templates for their Dot Net Nuke website platform.

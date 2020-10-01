@@ -7,4 +7,4 @@ start: 2018-01-28
 end: 2020-08-13
 ---
 
-Developed all the UI components of the CESPPA website and platform (back-end) using HTML and SCSS. Then helped to convert those UI blocks to Vue components. In addition, worked on developing WordPress theme and various HTML email templates for CESPPA.
+Developed all the UI components of CESPPA website and CESPPA back-end application platform using HTML and SCSS. Then helped to convert those UI blocks to Vue components. In addition, worked on developing WordPress theme and various HTML email templates for CESPPA.
