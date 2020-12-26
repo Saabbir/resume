@@ -37,8 +37,18 @@
         },
         {
             "name": "LinkedIn",
-            "user": "thesaabbir",
+            "user": "@thesaabbir",
             "url": "https://www.linkedin.com/in/thesaabbir"
+        },
+        {
+            "name": "Twitter",
+            "user": "@thesaabbir",
+            "url": "https://twitter.com/thesaabbir"
+        },
+        {
+          "name": "Skype",
+          "user": "live:saabbir_1",
+          "url": "https://join.skype.com/invite/sVSRul9EO2uz"
         }
     ]
 }

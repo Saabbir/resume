@@ -11,6 +11,8 @@ Built responsive site templates using HTML, CSS, jQuery, and Bootstrap to sell o
 
 <br>
 
-*Projects I have worked on during this time period:*
+*Some of the projects I worked on during this time period:*
 
 * [PersonX HTML Template](https://saabbir.gitlab.io/personx-original-live/) - for ThemeForest
+* [MI Testimonial](https://saabbir.gitlab.io/mi-testimonial/) - WordPress plugin front-end for miplugins.com
+* [Cornerstone Addons Pro](https://saabbir.gitlab.io/cs-addons-pro/)- WordPress plugin front-end
