@@ -11,11 +11,13 @@
         "Photoshop",
         "HTML",
         "CSS",
-        "Sass",
         "JavaScript",
-        "Bootstrap",
+        "jQuery",
         "Vue.js",
-        "Git"
+        "Sass",
+        "Bootstrap",
+        "Git",
+        "Gulp"
     ],
     "languages": [
         {

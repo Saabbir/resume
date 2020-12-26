@@ -30,4 +30,13 @@
             margin-top: 1em;
         }
     }
+
+    &__content ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    
+    &__content ul li + li {
+      margin-top: 5px;
+    }
 }

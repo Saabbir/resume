@@ -8,3 +8,9 @@ end: 2017-08-10
 ---
 
 Redesigned whole pragmaticworks.com website using HTML, CSS, JavaScript, and Bootstrap. Also, developed various code snippets and templates for their Dot Net Nuke website platform.
+
+<br>
+
+*Projects I have worked on during this time period:*
+
+* [Pragmaticworks Redesign](https://pragmaticworks-redesign.netlify.app/)
