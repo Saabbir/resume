@@ -1,54 +1,53 @@
 {
-    "name": "Saabbir Hossain",
-    "occupation": "Front-End Developer",
-    "location": "Barisal, Bangladesh",
-    "avatar": "saabbir.png",
-    "pronouns": "he/him",
-    "email": "thesaabbir@gmail.com",
-    "telephone": "+8801789243439",
-    "website": "https://saabbir.com",
-    "skills": [
-        "Photoshop",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery",
-        "Vue.js",
-        "Sass",
-        "Bootstrap",
-        "Git",
-        "Gulp"
-    ],
-    "languages": [
-        {
-            "name": "Bengali",
-            "level": "native"
-        },
-        {
-            "name": "English",
-            "level": "conversational"
-        }
-    ],
-    "social": [
-        {
-            "name": "Github",
-            "user": "@saabbir",
-            "url": "https://github.com/saabbir"
-        },
-        {
-            "name": "LinkedIn",
-            "user": "@thesaabbir",
-            "url": "https://www.linkedin.com/in/thesaabbir"
-        },
-        {
-            "name": "Twitter",
-            "user": "@thesaabbir",
-            "url": "https://twitter.com/thesaabbir"
-        },
-        {
-          "name": "Skype",
-          "user": "live:saabbir_1",
-          "url": "https://join.skype.com/invite/sVSRul9EO2uz"
-        }
-    ]
+  "name": "Saabbir Hossain",
+  "occupation": "Front-End Developer",
+  "location": "Barisal, Bangladesh",
+  "avatar": "saabbir.png",
+  "pronouns": "he/him",
+  "email": "thesaabbir@gmail.com",
+  "telephone": "+8801789243439",
+  "website": "https://saabbir.github.io",
+  "skills": [
+    "Photoshop",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "jQuery",
+    "Vue.js",
+    "Nuxt.js",
+    "Sass",
+    "Bootstrap",
+    "Git",
+    "Gulp"
+  ],
+  "languages": [{
+      "name": "Bengali",
+      "level": "native"
+    },
+    {
+      "name": "English",
+      "level": "conversational"
+    }
+  ],
+  "social": [{
+      "name": "Github",
+      "user": "@saabbir",
+      "url": "https://github.com/saabbir"
+    },
+    {
+      "name": "LinkedIn",
+      "user": "@thesaabbir",
+      "url": "https://www.linkedin.com/in/thesaabbir"
+    },
+    {
+      "name": "Twitter",
+      "user": "@thesaabbir",
+      "url": "https://twitter.com/thesaabbir"
+    },
+    {
+      "name": "Skype",
+      "user": "live:saabbir_1",
+      "url": "https://join.skype.com/invite/sVSRul9EO2uz"
+    }
+  ]
 }
