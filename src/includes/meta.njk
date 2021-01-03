@@ -1,5 +1,6 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
-{%- set pageTitle -%}{{ author.name }}{% if author.occupation %} - {{ author.occupation }}{% endif %}{% if author.location %} in {{ author.location }}{% endif %}{%- endset -%}
+{%- set pageTitle -%}{{ author.name }}{% if author.occupation %} -
+{{ author.occupation }}{% endif %}{% if author.location %} in {{ author.location }}{% endif %}{%- endset -%}
 {%- set pageDescription -%}Online Resume of {{ author.name }}{%- endset -%}
 
 <meta charset="UTF-8">
@@ -18,8 +19,8 @@
 <meta property="og:locale" content="{{ meta.locale }}">
 <meta name="twitter:card" content="summary">
 {%- if author.avatar -%}
-    {%- set avatarUrl -%}/assets/images/{{ author.avatar }}{% endset %}
-    <meta property="og:image" content="{{ avatarUrl | url | absoluteUrl(meta.url) }}">
+{%- set avatarUrl -%}/assets/images/{{ author.avatar }}{% endset %}
+<meta property="og:image" content="{{ avatarUrl | url | absoluteUrl(meta.url) }}">
 {%- endif -%}
 
 {# Favicon #}
@@ -29,28 +30,37 @@
 <link rel="shortcut icon" href="{{ '/assets/images/favicon/favicon.ico' | url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
 {% if meta.colors.primary %}
-    <link rel="mask-icon" href="{{ '/assets/images/favicon/safari-pinned-tab.svg' | url }}" color="{{ meta.colors.primary }}">
-    <meta name="theme-color" content="{{ meta.colors.primary }}">
+<link rel="mask-icon" href="{{ '/assets/images/favicon/safari-pinned-tab.svg' | url }}"
+  color="{{ meta.colors.primary }}">
+<meta name="theme-color" content="{{ meta.colors.primary }}">
 {% endif %}
 
 {# JSON LD #}
 <script type="application/ld+json">
-    {
-        "name":"{{ author.name }}",
-        "description":"{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
-        "author": {
-            "@type":"Person",
-            "name":"{{ author.name }}"
-        },
-        "@type":"WebSite",
-        "url":"{{ meta.url }}",
-        "image":"{{ meta.url }}/assets/images/{{ author.avatar }}",
-        "headline":"{{ author.name }}",
-        "sameAs":[
-            {%- for social in author.social -%}
-                "{{ social.url }}"{%- if not loop.last -%},{%- endif -%}
-            {%- endfor -%}
-        ],
-        "@context":"http://schema.org"
-    }
+  {
+    "name": "{{ author.name }}",
+    "description": "{{ author.occupation }}{% if author.location %} in {{ author.location }}{% endif %}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ author.name }}"
+    },
+    "@type": "WebSite",
+    "url": "{{ meta.url }}",
+    "image": "{{ meta.url }}/assets/images/{{ author.avatar }}",
+    "headline": "{{ author.name }}",
+    "sameAs": [{
+        % -
+        for social in author.social - %
+      }
+      "{{ social.url }}" {
+        % -
+        if not loop.last - %
+      }, {
+        % -endif - %
+      } {
+        % -endfor - %
+      }
+    ],
+    "@context": "http://schema.org"
+  }
 </script>
