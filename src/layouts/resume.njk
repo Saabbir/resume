@@ -54,7 +54,7 @@ layout: base
   </div>
   {% endif %}
 
-  {% if collections.custom.length %}
+  {# {% if collections.custom.length %}
   {% set custom = collections.custom|first %}
   <section class="section" id="section-custom">
     {% if custom.data.title %}
@@ -64,6 +64,6 @@ layout: base
       {{ custom.templateContent | safe }}
     </div>
   </section>
-  {% endif %}
+  {% endif %} #}
 
 </main>
