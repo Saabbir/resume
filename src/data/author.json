@@ -7,6 +7,7 @@
   "email": "thesaabbir@gmail.com",
   "telephone": "+8801789243439",
   "website": "https://saabbir.github.io",
+  "backendSkills": ["Node.js", "Express.js", "REST API", "GraphQL API", "Firebase", "MongoDB"],
   "skills": [
     "HTML5",
     "CSS",

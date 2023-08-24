@@ -2,6 +2,27 @@
 layout: base
 ---
 
+<style>
+.section__subtitle {
+  margin: 0 0 10px;
+}
+
+.c-skills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 20px;
+}
+
+.c-skill {
+  padding: 3px 6px;
+  background-color: #f2efef;
+  display: inline-block;
+  white-space: nowrap;
+}
+</style>
+
 <main class="main container">
 
   {% if collections.introduction.length %}
@@ -33,11 +54,19 @@ layout: base
     {% if author.skills %}
     <section class="section section--half" id="section-skills">
       <h2 class="section__title">{{ strings.titles.skills }}</h2>
-      <ul class="bulletlist">
+      <h3 class="section__subtitle">Frontend</h3>
+      <div class="c-skills">
         {% for skill in author.skills %}
-        <li class="p-skill">{{ skill }}</li>
+        <span class="c-skill">{{ skill }}</span>
         {% endfor %}
-      </ul>
+      </div>
+
+      <h3 class="section__subtitle">Backend</h3>
+      <div class="c-skills c-backend-skills">
+        {% for skill in author.backendSkills %}
+        <span class="c-skill c-backend-skill">{{ skill }}</span>
+        {% endfor %}
+      </div>
     </section>
     {% endif %}
 
