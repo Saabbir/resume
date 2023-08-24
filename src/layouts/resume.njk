@@ -51,16 +51,25 @@ layout: base
 
   {% if author.skills or author.languages %}
   <div class="grid grid--2col">
-    {% if author.skills %}
+    {% if author.frontendSkills or author.backendSkills %}
     <section class="section section--half" id="section-skills">
       <h2 class="section__title">{{ strings.titles.skills }}</h2>
-      <h3 class="section__subtitle">Frontend</h3>
+      {# <h3 class="section__subtitle">Frontend</h3>
       <div class="c-skills">
         {% for skill in author.skills %}
         <span class="c-skill">{{ skill }}</span>
         {% endfor %}
+      </div> #}
+
+      {# Frontend Skills #}
+      <h3 class="section__subtitle">Frontend</h3>
+      <div class="c-skills">
+        {% for skill in author.frontendSkills %}
+        <span class="c-skill">{{ skill }}</span>
+        {% endfor %}
       </div>
 
+      {# Backend Skills #}
       <h3 class="section__subtitle">Backend</h3>
       <div class="c-skills c-backend-skills">
         {% for skill in author.backendSkills %}
