@@ -1,81 +1,86 @@
 .vcard {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  &__content {
+    padding-top: 1rem;
+  }
+  &__title {
+    align-items: baseline;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+  }
+  &__subtitle {
+    margin-bottom: 1rem;
+  }
+  &__avatar {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    box-shadow: $box-shadow-elevated;
+    flex: 0 0 11rem;
+    height: 11rem;
+    margin-right: $spacing-x;
+    width: 11rem;
+  }
+  &__pronouns {
+    color: $gray;
+    font-family: $font-family-serif;
+    font-size: 1.125rem;
+  }
+  &__link {
+    align-items: center;
+    display: flex;
+    margin-right: 1rem;
 
-    &__content {
-        padding-top: 1rem;
+    > svg {
+      fill: $primary-color;
+      margin-right: 0.25rem;
     }
-    &__title {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
+
+    @include hover-focus {
+      text-decoration: none;
+
+      .vcard__link-text {
+        text-decoration: underline;
+      }
     }
-    &__subtitle {
-        margin-bottom: 1rem;
+
+    .icon {
+      margin-right: 0.125em;
     }
-    &__avatar {
-        width: 11rem;
-        height: 11rem;
-        flex: 0 0 11rem;
-        border-radius: 50%;
-        border: 5px solid #fff;
-        box-shadow: $box-shadow-elevated;
-        margin-right: $spacing-x;
-    }
-    &__pronouns {
-        font-size: 1.125rem;
-        font-family: $font-family-serif;
-        color: $gray;
+  }
+
+  @include mq(md) {
+    &__social {
+      display: flex;
+      flex-wrap: wrap;
+
+      .vcard__link {
+        margin-bottom: 0.4em; // compensate line-height
+      }
     }
     &__link {
-        display: flex;
-        align-items: center;
-        margin-right: 1rem;
-
-        @include hover-focus {
-            text-decoration: none;
-            
-            .vcard__link-text {
-                text-decoration: underline;
-            }
-        }
-
-        .icon {
-            margin-right: 0.125em;
-        }
+      display: inline-flex;
     }
+  }
 
-    @include mq(md) {
-        &__social {
-            display: flex;
-            flex-wrap: wrap;
+  @include mq(lg) {
+    padding: $spacing-y 0;
 
-            .vcard__link {
-                margin-bottom: 0.4em; // compensate line-height
-            }
+    @supports (display: grid) {
+      &__avatar {
+        margin: 0;
+        position: fixed;
+        right: 75%;
+        top: calc(#{$spacing-y} + 1rem);
+        transform: translateX(25%);
+        transition: transform 0.2s ease;
+
+        .js-scrolled & {
+          transform: translateX(25%) scale(0.75);
         }
-        &__link {
-            display: inline-flex;
-        }
+      }
     }
-
-    @include mq(lg) {
-        padding: $spacing-y 0;
-
-        @supports (display: grid) {
-            &__avatar {
-                position: fixed;
-                top: calc(#{$spacing-y} + 1rem);
-                right: 75%;
-                transform: translateX(25%);
-                transition: transform 0.2s ease;
-                margin: 0;
-
-                .js-scrolled & {
-                    transform: translateX(25%) scale(0.75);
-                }
-            }
-        }
-    }
+  }
 }
