@@ -3,4 +3,4 @@ tags: introduction
 title: About Me
 ---
 
-I am a web developer with over 6 years of experience in front-end web development and a special background in web design. My focus is on creating modular, reusable &amp; maintainable user interfaces/components for web sites/apps. I am currently looking for new challenges.
+A veteran frontend engineer and A/B testing expert, I bring 8 years of experience building high-quality, performant websites and apps using modern tools like React and Shopify. In the past 3 years, I've specialized in CRO and A/B testing, helping e-commerce sites overcome user friction and drive revenue growth through targeted optimization.

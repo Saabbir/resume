@@ -1,7 +1,7 @@
 ---
-title: Frontend Developer
-organization: CESPPA
-organizationUrl: https://www.cesppa.com/
+title: Senior Frontend Developer
+organization: Inspectiv (formerly known CESPPA)
+organizationUrl: https://www.inspectiv.com/
 location: Los Angeles, CA
 start: 2018-01-28
 end: 2020-08-13
@@ -9,13 +9,23 @@ end: 2020-08-13
 
 <!-- Developed all the UI components of CESPPA website and CESPPA back-end application platform using HTML and SCSS. Then helped to convert those UI blocks to Vue components. In addition, worked on developing WordPress theme and various HTML email templates for CESPPA. -->
 
-- Created all the UI components of cesppa.com and my.cesppa.com by writing semantic HTML and modular SCSS.
+Designed and Developed Responsive UI for CESPPA Platform
 
-- Collaborated with full-stack developer on Vue.js development.
+<br>
 
-- Developed [CESPPA WordPress blog theme](https://blog.cesppa.com/).
+✅ Built reusable UI components for both the CESPPA website and back-end application platform using HTML and SCSS.
 
-- Also, built various HTML email templates for CESPPA newsletters.
+<br>
+
+✅ Leveraged Vue.js to transform UI blocks into interactive and maintainable components, enhancing front-end development efficiency.
+
+<br>
+
+✅ Contributed to brand consistency by developing a custom WordPress theme for CESPPA's website.
+
+<br>
+
+✅ Created engaging HTML email templates for various marketing and communication purposes.
 
 <!-- <br>
 

@@ -1,16 +1,42 @@
 {
   "name": "Saabbir Hossain",
-  "occupation": "Frontend Developer",
+  "occupation": "Senior Frontend Engineer | A/B Testing Specialist",
   "location": "Dhaka, Bangladesh",
   "avatar": "saabbir.png",
   "pronouns": "he/him",
   "email": "thesaabbir@gmail.com",
   "telephone": "+8801789243439",
   "website": "https://saabbir.github.io",
-  "frontendSkills": ["HTML", "CSS", "JavaScript", "Sass/Less/PostCSS", "Nunjucks", "jQuery", "Bootstrap", "Vue.js", "Nuxt.js", "React.js", "Redux.js", "Git", "Gulp", "Webpack"],
-  "backendSkills": ["Node.js", "Express.js", "REST API", "GraphQL API", "Firebase", "MongoDB"],
+  "frontendSkills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Sass/Less/PostCSS",
+    "Nunjucks",
+    "jQuery",
+    "Bootstrap",
+    "Vue.js",
+    "Nuxt.js",
+    "React.js",
+    "Redux.js",
+    "Gulp",
+    "Webpack",
+    "Shopify",
+    "WordPress",
+    "A/B Testing",
+    "CRO"
+  ],
+  "backendSkills": [
+    "Node.js",
+    "Express.js",
+    "REST API",
+    "GraphQL API",
+    "Firebase",
+    "MongoDB"
+  ],
   "otherSkills": ["HTML Email Development"],
-  "languages": [{
+  "languages": [
+    {
       "name": "Bengali",
       "level": "native"
     },
@@ -19,7 +45,8 @@
       "level": "conversational"
     }
   ],
-  "social": [{
+  "social": [
+    {
       "name": "Github",
       "user": "@saabbir",
       "url": "https://github.com/saabbir"
@@ -28,16 +55,6 @@
       "name": "LinkedIn",
       "user": "@thesaabbir",
       "url": "https://www.linkedin.com/in/thesaabbir"
-    },
-    {
-      "name": "Twitter",
-      "user": "@thesaabbir",
-      "url": "https://twitter.com/thesaabbir"
-    },
-    {
-      "name": "Skype",
-      "user": "live:saabbir_1",
-      "url": "https://join.skype.com/invite/sVSRul9EO2uz"
     }
   ]
 }
